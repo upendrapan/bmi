@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textSize="30sp"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/edweg"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"
+            android:background="#696969"
+            android:hint="KG"
+            android:gravity="center"
+            android:layout_marginLeft="80dp">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textSize="30sp"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/edhei"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"
+            android:background="#696969"
+            android:hint="cm"
+            android:gravity="center"
+            android:layout_marginLeft="80dp">
+
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Result"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        >
+
+    </Button>
+    <TextView
+        android:id="@+id/txtinter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Details"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/txtres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BMI= ?"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Reset"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        >
+
+    </Button>
+
+
+</LinearLayout>
